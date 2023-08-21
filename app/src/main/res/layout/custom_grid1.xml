@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/shape2"
+    android:layout_margin="8dp">
+
+    <!-- Symbol -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NSE"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <!-- Identifier -->
+    <TextView
+        android:id="@+id/identifierTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NSE"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Current Value -->
+    <TextView
+        android:id="@+id/openPriceTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Value: $1000"
+        android:textSize="14sp" />
+
+    <!-- Percent Change with Arrow Icon -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/dayHighTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change: +5%"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/arrowIcon"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:src="@drawable/ic_arrow_up"
+            android:contentDescription="Arrow Icon"
+            android:layout_marginStart="4dp" />
+    </LinearLayout>
+</LinearLayout>

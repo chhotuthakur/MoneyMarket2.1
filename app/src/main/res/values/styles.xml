@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--textView -->
+    <style name="GoldenTextView" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/golden_color</item>
+    </style>
+
+    <style name="BlueTextView" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/blue_color</item>
+    </style>
+
+    <style name="BlackTextView" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/black_color</item>
+    </style>
+
+    <style name="WhiteTextView" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/white_color</item>
+    </style>
+
+    <color name="golden_color">#FFEB3B</color>
+    <color name="blue_color">#3F51B5</color>
+    <color name="black_color">#000000</color>
+    <color name="white_color">#FFFFFF</color>
+
+<!--    alert-->
+    <style name="GoldenAlertDialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:background">@color/golden_color</item>
+        <item name="android:textColorPrimary">@color/white_color</item>
+    </style>
+
+    <style name="BlueAlertDialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:background">@color/blue_color</item>
+        <item name="android:textColorPrimary">@color/white_color</item>
+    </style>
+
+    <style name="BlackAlertDialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:background">@color/black_color</item>
+        <item name="android:textColorPrimary">@color/white_color</item>
+    </style>
+
+    <style name="WhiteAlertDialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:background">@color/white_color</item>
+        <item name="android:textColorPrimary">@color/black_color</item>
+    </style>
+<!--bottom-->
+    <style name="GoldenBottomNavigation">
+        <item name="android:background">@color/golden_color</item>
+    </style>
+
+    <style name="BlueBottomNavigation">
+        <item name="android:background">@color/blue_color</item>
+    </style>
+
+    <style name="BlackBottomNavigation">
+        <item name="android:background">@color/black_color</item>
+    </style>
+
+    <style name="WhiteBottomNavigation">
+        <item name="android:background">@color/white_color</item>
+    </style>
+
+<!--    topbar-->
+    <style name="GoldenTopBar">
+        <item name="android:background">@color/golden_color</item>
+    </style>
+
+    <style name="BlueTopBar">
+        <item name="android:background">@color/blue_color</item>
+    </style>
+
+    <style name="BlackTopBar">
+        <item name="android:background">@color/black_color</item>
+    </style>
+
+    <style name="WhiteTopBar">
+        <item name="android:background">@color/white_color</item>
+    </style>
+
+<!--    textinputlayout-->
+    <style name="GoldenTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxStrokeColor">@color/golden_color</item>
+        <item name="hintTextColor">@color/golden_color</item>
+    </style>
+
+    <style name="BlueTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxStrokeColor">@color/blue_color</item>
+        <item name="hintTextColor">@color/blue_color</item>
+    </style>
+
+    <style name="BlackTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxStrokeColor">@color/black_color</item>
+        <item name="hintTextColor">@color/black_color</item>
+    </style>
+
+    <style name="WhiteTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxStrokeColor">@color/white_color</item>
+        <item name="hintTextColor">@color/white_color</item>
+    </style>
+<!--button-->
+    <style name="GoldenButton" parent="android:Widget.Button">
+        <item name="android:backgroundTint">@color/golden_color</item>
+    </style>
+
+    <style name="BlueButton" parent="android:Widget.Button">
+        <item name="android:backgroundTint">@color/blue_color</item>
+    </style>
+
+    <style name="BlackButton" parent="android:Widget.Button">
+        <item name="android:backgroundTint">@color/black_color</item>
+    </style>
+
+    <style name="WhiteButton" parent="android:Widget.Button">
+        <item name="android:backgroundTint">@color/white_color</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Trade Menu Item -->
+    <item
+        android:id="@+id/menu_set"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="App Settings" />
+
+    <!-- Watch Menu Item -->
+    <item
+        android:id="@+id/menu_pol"
+        android:icon="@drawable/baseline_notes_24"
+        android:title="Terms &amp; Conditions " />
+
+    <!-- Account Menu Item -->
+    <item
+        android:id="@+id/menu_exit"
+        android:icon="@drawable/baseline_exit_to_app_24"
+        android:title="Exit" />
+</menu>

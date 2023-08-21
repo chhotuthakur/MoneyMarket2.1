@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Trade Menu Item -->
+    <item
+        android:id="@+id/menu_trade"
+        android:icon="@drawable/baseline_attach_money_24"
+        android:title="Trade" />
+
+    <!-- Watch Menu Item -->
+    <item
+        android:id="@+id/menu_watch"
+        android:icon="@drawable/baseline_newspaper_24"
+        android:title="Watch" />
+
+    <!-- Account Menu Item -->
+    <item
+        android:id="@+id/menu_account"
+        android:icon="@drawable/baseline_account_balance_wallet_24"
+        android:title="Account" />
+</menu>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stock Details"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Stock Symbol -->
+    <TextView
+        android:id="@+id/symbolTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleTextView"
+        android:layout_marginTop="8dp"
+        android:text="Stock Symbol: ABC"
+        android:textSize="16sp" />
+
+    <!-- Identifier -->
+    <TextView
+        android:id="@+id/identifierTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/symbolTextView"
+        android:layout_marginTop="4dp"
+        android:text="Identifier: XYZ"
+        android:textSize="16sp" />
+
+    <!-- Current Value -->
+    <TextView
+        android:id="@+id/currentValueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/identifierTextView"
+        android:layout_marginTop="8dp"
+        android:text="Current Value: $100.00"
+        android:textSize="16sp" />
+
+    <!-- Previous Closed -->
+    <TextView
+        android:id="@+id/previousClosedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/currentValueTextView"
+        android:layout_marginTop="4dp"
+        android:text="Previous Closed: $95.00"
+        android:textSize="16sp" />
+
+    <!-- Profit/Loss with Arrow Icon -->
+    <RelativeLayout
+        android:id="@+id/profitLossLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/previousClosedTextView"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/profitLossTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profit/Loss: $5.00"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/arrowIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_toRightOf="@id/profitLossTextView"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/ic_arrow_up"
+            android:contentDescription="Arrow Icon" />
+
+    </RelativeLayout>
+
+    <!-- Body -->
+    <TextView
+        android:id="@+id/bodyTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profitLossLayout"
+        android:layout_marginTop="16dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        android:textSize="16sp" />
+
+</RelativeLayout>

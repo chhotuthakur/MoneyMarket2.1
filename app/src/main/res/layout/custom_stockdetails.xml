@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Symbol:"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/symbolTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"/>
+
+</LinearLayout>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Identifier:"/>
+
+<TextView
+    android:id="@+id/identifierTextView"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="2"/>
+
+</LinearLayout>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Open:"/>
+
+<TextView
+    android:id="@+id/openTextView"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="2"/>
+
+</LinearLayout>
+
+    <!-- Add similar layout sections for other stock details -->
+
+    <!-- Day High -->
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Day High:"/>
+
+<TextView
+    android:id="@+id/dayHighTextView"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="2"/>
+
+</LinearLayout>
+
+    <!-- Day Low -->
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Day Low:"/>
+
+<TextView
+    android:id="@+id/dayLowTextView"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="2"/>
+
+</LinearLayout>
+
+    <!-- Last Price -->
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Last Price:"/>
+
+<TextView
+    android:id="@+id/lastPriceTextView"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="2"/>
+
+</LinearLayout>
+
+    <!-- Previous Close -->
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Previous Close:"/>
+
+<TextView
+    android:id="@+id/previousCloseTextView"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="2"/>
+
+</LinearLayout>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Change:"/>
+
+<TextView
+    android:id="@+id/changeTextView"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="2"/>
+
+</LinearLayout>
+
+    <!-- PChange -->
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="PChange:"/>
+
+<TextView
+    android:id="@+id/pChangeTextView"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="2"/>
+
+</LinearLayout>
+
+    <!-- Year High -->
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Year High:"/>
+
+<TextView
+    android:id="@+id/yearHighTextView"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="2"/>
+
+</LinearLayout>
+
+    <!-- Year Low -->
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Year Low:"/>
+
+<TextView
+    android:id="@+id/yearLowTextView"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="2"/>
+
+</LinearLayout>
+
+    <!-- Total Traded Volume -->
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Total Traded Volume:"/>
+
+<TextView
+    android:id="@+id/totalTradedVolumeTextView"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="2"/>
+
+</LinearLayout>
+
+    <!-- Total Traded Value -->
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Total Traded Value:"/>
+
+<TextView
+    android:id="@+id/totalTradedValueTextView"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="2"/>
+
+</LinearLayout>
+
+    <!-- Per Change 365d -->
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Per Change 365d:"/>
+
+<TextView
+    android:id="@+id/perChange365dTextView"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="2"/>
+
+</LinearLayout>
+
+    <!-- Per Change 30d -->
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Per Change 30d:"/>
+
+<TextView
+    android:id="@+id/perChange30dTextView"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="2"/>
+
+</LinearLayout>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
